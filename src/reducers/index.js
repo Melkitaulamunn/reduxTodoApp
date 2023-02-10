@@ -17,7 +17,7 @@ switch (action.type) {
       liste:[ 
         ...state.liste,
         {
-          id: state.liste.lenght + 1,
+          id: state.liste.length + 1,
           baslik : action.payload,
           tamamlandi :false
         }
